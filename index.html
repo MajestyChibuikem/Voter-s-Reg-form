@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PVC</title>
+    <link rel="stylesheet" href="/Script/style.css">
+</head>
+<body>
+
+    <section>
+        
+        <div class="form-container">
+            <form action="/submit-form" method="post">
+                <div class="names">
+                    <div class="surname">
+                        <label for="surname">Surname:</label>
+                        <input class="surname_input" type="text" id="surname" name="surname" required>
+                      </div>
+                      <div class="firstname">
+                        <label for="surname">firstname:</label>
+                        <input class="firstname_input" type="text" id="firstname" name="firstname" required>
+                      </div>
+                      <div class="middlename">
+                        <label for="middlename">Surname:</label>
+                        <input class="middlename_input" type="text" id="middlename" name="middlename" required>
+                      </div>
+                </div>
+              <!-- Add other form fields as needed -->
+              <div class="checkbox-group">
+                    <div class="line-one">
+                        <label>Gender :</label>
+                        <div class="gender-male">
+                            <label for="Male">Male</label>
+                            <a class="mal-checkbox">
+                                <input   type ="checkbox" id="male" name="gender" value="male" required>
+                            </a>
+                        </div>
+                        
+                        <div class="gender-female">
+                            <label for="Female">Female</label>
+                            <a class="fem-checkbox">
+                                <input  type ="checkbox" id="female" name="gender" value="female"required>
+                            </a>
+                        </div>
+                        <div class="DOB">
+                            <label for="DOB">Date of Birth</label>
+                            <input class type="date" id="DOB" name="DOB" required>
+                        </div>
+                        <div class="state">
+                            <label for="state">State: </label>
+                            <a class="stat">
+                                <input type="text">
+                            </a>
+                        </div>
+                        <!-- <input type="radio" id="no" name="disability" value="no">
+                        <label for="no">No</label> -->
+                    </div>
+                    <div class="line-two">
+                        <div class="lga">
+                            <label for="lga">LGA </label>
+                            <a class="lga-textbox">
+                                <input type="text" required>
+                            </a>
+                        </div>
+                        <div class="reg">
+                            <label for="regarea">Registration Area </label>
+                            <input class="reg-input" type="text" required>
+                        </div>
+                        <div class="poll">
+                            <label for="Poll">Polling Unit </label>
+                            <input type="text" required>
+                        </div>
+                    </div>
+                    <div class="line-three">
+                        <div class="email">
+                            <label for="email">Email</label>
+                            <input type="text" name="email" id="email" required>
+                        </div>
+                        <div class="phone">
+                            <label for="phone">Phone No</label>
+                            <input type="text" name="phone" id="phone" required>
+                        </div>
+                    </div>
+                    <div class="line-four">
+                        <div>
+                            <label for="address">
+                                Residential Address
+                            </label>
+                            <input type="text" required>
+                        </div>
+                    </div>
+                    <div class="line-five">
+                        <div>
+                            <label for="disability">Disability?</label>
+                        </div>
+                        <div>
+                            <label for="no">No</label>
+                            <input type="radio" name="disable" id="no" value="no">
+                        </div>
+                        <div>
+                            <label for="disability">Yes</label>
+                            <input type="radio" name="disable" id="yes" value="yes">
+                            <label for="tickmore">if Yes, tick appropriate box(es) below:</label>
+                        </div>
+                        
+                    </div>
+                    <div class="line-six">
+                        <div>
+                            <label for="Albinism">Albinism</label>
+                            <input type="text">
+                        </div>
+                        <div>
+                            <label for="Autism">Autism</label>
+                            <input type="text">
+                        </div>
+                        <div>
+                            <label for="Blind">Blind</label>
+                            <input type="text">
+                        </div>
+                        <div>
+                            <label for="Cognitive">Cognitive</label>
+                            <input type="text">
+                        </div>
+                        <div>
+                            <label for="Deaf">Deaf</label>
+                            <input type="text">
+                        </div>
+                        <div>
+                            <label for="Physical">Physical</label>
+                             <input type="text">
+                        </div>
+                    </div>
+                    <div class="line-seven">
+                        <div>
+                            <label for="Down-syndrome">Down-syndrome</label>
+                            <input type="text">
+                        </div>
+                        <div>
+                            <label for="Little-stature">Little-stature</label>
+                            <input type="text">
+                        </div>
+                        <div>
+                            <label for="Spinal-cord">Spinal-cord injury</label>
+                            <input type="text">
+                        </div>
+                        <div>
+                            <label for="others-">Others</label>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="line-7">
+                        <h3 >Occupation</h3>
+                    </div>
+              </div>
+              <!-- Add other form fields as needed -->
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+    </section>
+
+    <section>
+
+    </section>
+      
+</body>
+</html>

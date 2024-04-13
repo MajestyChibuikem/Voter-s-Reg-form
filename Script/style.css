@@ -1,0 +1,135 @@
+section{
+    border: #4cae4c;
+    border: 15px;
+
+}
+body { font-family: Arial, 
+    sans-serif; 
+}
+.form-container { 
+    max-width: 900px; 
+    margin: 30px auto; 
+
+}
+form { 
+    background-color: #f7f7f7; 
+    padding: 20px; 
+    border-radius: 5px; 
+}
+.names{
+    display: inline-flex;
+}
+
+.surname { 
+    margin-bottom: 10px;
+    display: inline-flex; 
+    color: red;
+}
+
+.firstname { 
+    margin-bottom: 10px;
+    margin-left: 5px;
+    display: inline-flex;
+    color: red; 
+}
+.middlename { 
+    margin-left: 5px;
+    margin-bottom: 10px;
+    display: inline-flex; 
+    color: red;
+}
+
+.surname_input{
+    margin-top: -4px;
+    margin-left: 10px;
+}
+.firstname_input{
+    margin-top: -4px;
+    margin-left: 10px;
+}
+.middlename_input{
+    margin-top: -4px;
+    margin-left: 10px;
+}
+label { 
+    display: block; margin-bottom: 5px; 
+}
+input[type="text"], input[type="email"], input[type="date"] {
+  width: 100%; padding: 8px; margin-bottom: 15px; border: 1px solid #ddd; border-radius: 4px;
+}
+.checkbox-group { display: block; align-items: center; }
+.form-group{
+    display: inline-flex;
+}
+.line-one{
+    display: inline-flex;
+}
+.line-two{
+    display: inline-flex;
+}
+.line-three{
+    display: inline-flex;
+}
+.line-four{
+    display: inline-flex;
+}
+.line-five{
+    display: inline-flex;
+}
+.line-six{
+    display: inline-flex;
+}
+.gender-female{
+    display: inline-flex;
+    margin-left: 15px;
+}
+.fem-checkbox{
+    margin-top: -px;
+}
+.gender-male{
+    display: inline-flex;
+    margin-left: 15px;
+
+}
+.mal-checkbox{
+    margin-top: -px;
+}
+.DOB{
+    display: inline-flex;
+    margin-left: 15px;
+}
+.state{
+    display: inline-flex;
+    margin-left: 15px;
+}
+.stat{
+    margin-left: 3px;
+}
+.lga{
+    display: inline-flex;
+    margin-right: 5px;
+}
+.lga-textbox{
+    margin-left: 3px;
+}
+.reg{
+    display: inline-flex;
+    margin-left: 19px;
+    margin-right: 5px;
+}
+.reg-input{
+    margin-left: 5px;
+}
+.poll{
+    display: inline-flex;
+    margin-left: 15px;
+}
+
+
+.line-7{
+    
+}
+.radio-group label { margin-right: 10px; }
+.radio-group input { margin-right: 5px; }
+button { padding: 10px 15px; background-color: #5cb85c; color: white; border: none; border-radius: 4px; cursor: pointer; }
+button:hover { background-color: #4cae4c; }
